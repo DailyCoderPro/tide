@@ -1,2 +1,14 @@
 server:
   port: 8085
+
+# Mysql Database Configuration
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/demo_tide?useSSL=false&serverTimezone=UTC
+    username: root
+    password: avinash.jh
+  # Hibernate Configuration
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true

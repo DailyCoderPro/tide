@@ -1,0 +1,63 @@
+# === Java / Spring Boot ===
+*.class
+*.jar
+*.war
+*.ear
+*.log
+*.iml
+*.hprof
+
+# === Maven ===
+target/
+*.mvn/
+.mvn/
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# === Spring Boot ===
+spring.log
+
+# === IntelliJ IDEA ===
+*.iws
+*.ipr
+*.iml
+.idea/
+
+# === Eclipse ===
+.project
+.classpath
+.settings/
+bin/
+
+# === VSCode ===
+.vscode/
+
+# === OS Specific ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+logs/
+*.log
+
+# === Environment Variables ===
+*.env
+.env.*
+
+# === Docker ===
+*.pid
+**/tmp/
+
+# === Test Output ===
+test-output/
+coverage/
+jacoco.exec
+
+# === Misc ===
+*.swp
+*.tmp
+*.bak
+*.orig
+*.rej
+*.settings
+*.eclipse
